@@ -1,0 +1,31 @@
+
+1. 准备Compiler Version5的ARMCC文件包
+
+方法1： 使用旧版（V535）下面的ARMCC目录
+            。一般在类如下面的地址：  c:\keil_v5\RM\ARMCC          //本人电脑是是V5.16a，可以正常使用
+            。拷贝到新的目录，如：  c:\keil_v538a\RM\ARMCC
+
+
+方法2： 在网上直接下载
+
+    链接：https://pan.baidu.com/s/1bsBIC7hM2h2ZX9iZznQlpg 
+    提取码：d17s 
+
+
+2. 打开新版Keil，点击工具栏上面的品字按钮，進入“Manage Project Items”
+    。在“Folders/Extensions”标签下，
+    。点击右侧“…”按钮， 添加之前复制的ARMCC文件夹
+    。点击“Add another ARM Compler Version to List…”，选择刚才拷贝的ARMCC目录
+    。在ARMCC version列表中多了一项”V5.06(build20）“
+    。点击”close“， 在下一界面中点击”ok“
+    。即完成加入Compiler Version5的ARMCC
+
+3. 最后一步，打开keil的魔方棒，在target中的ARM compiler中选择”V5.06(build20）“
+    再编译，即ok
+
+
+
+
+
+
+
