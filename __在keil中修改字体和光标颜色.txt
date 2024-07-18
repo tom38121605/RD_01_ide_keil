@@ -1,0 +1,15 @@
+
+一。修改光标颜色
+      。菜单edit\ configuration...\All Editors\Caret Line\ 设置光标的颜色和背景色
+
+
+二。修改字体颜色：
+      。菜单edit\ configuration...\C/C++ Editor files
+
+
+
+ 
+ 
+
+
+
