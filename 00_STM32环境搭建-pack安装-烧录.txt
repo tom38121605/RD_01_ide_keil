@@ -1,0 +1,10 @@
+
+   。KEIL 的pack
+
+     下载地址：  stm32和keil官网，百度
+                      https://www.keil.arm.com/devices/
+
+      pack安装方法1： 直接点击pack，安装到该版keil的pack目录
+      pack安装方法2： 先打开keil，在keil 中安装pack 
+
+
