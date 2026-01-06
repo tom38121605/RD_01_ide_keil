@@ -8,8 +8,15 @@
     在keil中有个“品”形状的图标，点击它后出来一个界面，在“Progect Components”下面就是工程名，双击他就能改了
  
 3. 修改编译生成的hex文件名
-    1). 進入菜单project\Options...\OUTPUT
+    1).  魔法棒\OUTPUT
     2). 修改“Name of executable”
+
+4. 检查烧录器的设置，是否被暗地里改变
+    1). 魔法棒\Debug
+    2). 看右上角的Setting前面的下拉框，是否还是原来的烧录器设置   
+    3). 打个比喻，如果原来的烧录器是st-link，被keil暗地里改成了ulink。则需要手动改为st-link
+
+5. 检查魔法棒里面的设置，确认勾选 “reset and run”
 
 补充： 如果是烧录RT1011, 则还要选nor的工程 （在品字的左边选择）
 
