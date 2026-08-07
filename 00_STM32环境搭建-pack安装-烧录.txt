@@ -5,6 +5,11 @@
                       https://www.keil.arm.com/devices/
 
       pack安装方法1： 直接点击pack，安装到该版keil的pack目录
+
       pack安装方法2： 先打开keil，在keil 中安装pack 
+            解压ZIP文件，得到 TexasInstruments.MSPM0G1x0x_G3x0x_DFP.2.1.0.pack
+            在Keil uVision中执行 Pack Installer → File → Import ，选择该PACK文件
+            安装完成后，在 Project → Options for Target → Device 中可选择 MSPM0G3507 等具体型号
+
 
 
