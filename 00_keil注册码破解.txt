@@ -1,0 +1,21 @@
+﻿
+1.  进入windows 安全中心
+      。病毒与威胁防护  -- 管理设置
+           . 关掉 “实时保护” 
+          . 关掉 “篡改防护”
+
+
+2.  管理员运行 keil  -- 菜单 file  --  license management  -- 拷贝 CID (如 CLRXE-1VACT)
+
+3。 管理员运行打开 keygen_new2032.exe   --  target 选择 arm  （stm32）  --  粘贴刚才的CID -- 点击 generate  -- 生成一串注册码 （如 32B1Q-NP406-ARUXW-Q0N2V-31TV1-WCPPL ）
+
+4. 回到keil 的 license management  -- 粘贴刚才的注册码  32B1Q-NP406-ARUXW-Q0N2V-31TV1-WCPPL    -- 点击 add LIC -- ok
+
+5.  进入windows 安全中心
+      。病毒与威胁防护  -- 管理设置
+           . 打开 “实时保护” 
+          . 打开 “篡改防护”
+
+
+
+注意： 一定要 管理员运行 keil 
