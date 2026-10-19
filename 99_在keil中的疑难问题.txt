@@ -1,0 +1,21 @@
+
+
+1. 在mian.h中，修改 define WAITREPEATTIE 的数值，如把300ms 修改成3000ms， 在main.c中调用，编译后发送频率没有发生变化
+  分析： keil的版本是5.39.0.0， 可能是一个bug
+  解决方法1： 在keil版本 V5.39.0.0中完全编译（rebuild），可把修改及时反映出来
+  解决方法2：  在stm32cubeide中编译， 可把修改及时反映出来
+  解决方法1： 在keil版本 V5.38.0.0中最新部分编译（build），可把修改及时反映出来
+
+
+2. 在keil中搜索，find all搜索出一堆结果，点击其中一栏，出现下面的提示：
+    Encountered an improper argument.
+  解决； 先关掉keil --  删除整个编译的目录（里面有hex） --  重新编译 （full compile） --  ok
+
+
+
+
+ 
+ 
+
+
+
